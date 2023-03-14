@@ -1,0 +1,45 @@
+[
+    {
+        "id":1,
+        
+        "name": "Mathematics",
+        "time_required":2,
+        "description":"Mathematics is the music of reason. Mathematics knows no races or geographic boundaries;"
+
+    },
+    {
+        "id":2,
+        "name": "Programming",
+        "time_required":2.5,
+        "description":"A language that doesn't affect the way you think about programming is not worth knowing"
+
+    },
+    {
+        "id":3,
+        "name": "Astronomy",
+        "time_required":1.5,
+        "description":"Man must rise above the Earth—to the top of the atmosphere and beyond—for only thus will he fully understand the world in which he lives"
+
+    },
+    {
+        "id":4,
+        "name": "Physics",
+        "time_required":3,
+        "description":"Not only is the Universe stranger than we think, it is stranger than we can think."
+
+    },
+    {
+        "id":5,
+        "name": "Chemistry",
+        "time_required":1,
+        "description":"Chemistry is good when you make love with it. Chemistry is bad when you make crack with it. Frederick Soddy"
+
+    },
+    {
+        "id":6,
+        "name": "Biology",
+        "time_required":1,
+        "description":"Biology is the most powerful technology ever created. DNA is software, protein are hardware, cells are factories."
+
+    }
+]

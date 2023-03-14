@@ -1,0 +1,26 @@
+.img{
+    height:60px;
+    width: 60px;
+    border-radius: 50%;
+}
+.col{
+    margin: 0px;
+}
+
+.exercise-info{
+    border-radius: 20px;
+    margin:0 auto;
+    width: 100%;
+    text-align:start;
+    background-color: #f4f5f7;
+    /* height: 17vh; */
+    /* color:red; */
+    font-size: 22px;
+    font-weight: bold;
+    align-items: center;
+}
+
+small{
+    opacity: .5;
+    font-size: 1rem;
+}

@@ -1,0 +1,14 @@
+.sidebar{
+    width: 25vw;
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    right: 0px;
+    top:0px;
+    height: 100vh;
+    position: fixed;
+    /* border:1px solid red; */
+    display: flex;
+    flex-direction: column;
+    overflow-y: scroll;
+    /* justify-content: center; */
+}
