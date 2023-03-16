@@ -7,7 +7,7 @@ const ExerciseDetails = ( {studyTime} ) => {
              <b className='m-3 '> Study Details</b>
              <div className='row mt-4 exercise-info d-flex'> 
                 <div className="col-12 pt-2 ">
-                    <p> <b className='me-4 fs-6'> Study Time: </b> <small> {studyTime}h</small></p>
+                    <p> <b className='me-4 fs-6'> Study Time: </b> <small> {studyTime} h</small></p>
                 </div>
            
               

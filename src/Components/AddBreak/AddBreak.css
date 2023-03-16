@@ -5,6 +5,7 @@
 }
 .col{
     margin: 0px;
+ 
 }
 
 .profile-info{
@@ -17,6 +18,9 @@
     font-size: 22px;
     font-weight: bold;
     align-items: center;
+}
+.cursor{
+    cursor: pointer;
 }
 
 small{

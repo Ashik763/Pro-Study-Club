@@ -3,27 +3,25 @@
         "id":1,
         
         "name": "Mathematics",
+        "img" : "https://i.ibb.co/pfK0VDP/math.jpg",
         "time_required":2,
         "description":"Mathematics is the music of reason. Mathematics knows no races or geographic boundaries;"
 
     },
+
     {
         "id":2,
         "name": "Programming",
+        "img":"https://i.ibb.co/qmzzf3H/programming.jpg",
         "time_required":2.5,
         "description":"A language that doesn't affect the way you think about programming is not worth knowing"
 
     },
-    {
-        "id":3,
-        "name": "Astronomy",
-        "time_required":1.5,
-        "description":"Man must rise above the Earth—to the top of the atmosphere and beyond—for only thus will he fully understand the world in which he lives"
-
-    },
+ 
     {
         "id":4,
         "name": "Physics",
+        "img":"https://i.ibb.co/1GdbJNr/physics.jpg",
         "time_required":3,
         "description":"Not only is the Universe stranger than we think, it is stranger than we can think."
 
@@ -31,6 +29,8 @@
     {
         "id":5,
         "name": "Chemistry",
+        "img":"https://i.ibb.co/L1xmWvH/chemistry.jpg",
+       
         "time_required":1,
         "description":"Chemistry is good when you make love with it. Chemistry is bad when you make crack with it. Frederick Soddy"
 
@@ -38,8 +38,18 @@
     {
         "id":6,
         "name": "Biology",
+        "img":"https://i.ibb.co/LpXDQJj/biology.jpg",
+       
         "time_required":1,
         "description":"Biology is the most powerful technology ever created. DNA is software, protein are hardware, cells are factories."
+
+    },
+    {
+        "id":3,
+        "name": "Astronomy",
+        "img":"https://i.ibb.co/sK2h6PM/astronomy.jpg",
+        "time_required":1.5,
+        "description":"Man must rise above the Earth—to the top of the atmosphere and beyond—for only thus will he fully understand the world in which he lives"
 
     }
 ]

@@ -5,14 +5,20 @@ import Sidebar from '../Sidebar/Sidebar';
 
 const Subjects = () => {
    const [subjects,setSubjects] = useState([]);
-
+    let totalStudyTime = localStorage.getItem('total-study-hours');
     useEffect(()=>{
         fetch('info.JSON')
         .then(res => res.json())
         .then(res => setSubjects(res))
     },[subjects]);
 
-    const handleAddtoList = (id)=> {
+    // useEffect(()=>{
+    //     fetch('info.JSON')
+    //     .then( res => res.json() )
+    //     .then(res => setSubjects([]))
+    // },[totalStudyTime]);
+
+    const handleAddtoList = (id) => {
         console.log(id);
 
     }
@@ -24,12 +30,7 @@ const Subjects = () => {
                 {
                     subjects.map(subject => <Subject key={subject.id} subject={subject} handleAddtoList={handleAddtoList} ></Subject>)
                 }
-              {/* <Subject > </Subject>
-              <Subject > </Subject>
-              <Subject > </Subject>
-              <Subject > </Subject>
-              <Subject > </Subject>
-              <Subject > </Subject> */}
+           
             </div>
           
         </div>

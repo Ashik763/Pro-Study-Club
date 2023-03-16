@@ -14,10 +14,16 @@ function App() {
         fetch('info.JSON')
         .then(res => res.json())
         .then(res => setSubjects(res))
+    },[]);
+    useEffect(()=>{
+      let currentStudyHours= localStorage.getItem('total-study-hours');
+      setStudyTime( JSON.parse(currentStudyHours));
+
     },[subjects]);
 
     const handleAddtoList = (obj)=> {
         setStudyTime(studyTime+obj.time_required);
+        localStorage.setItem('total-study-hours',JSON.stringify(studyTime+obj.time_required));
         
 
     }
@@ -44,7 +50,7 @@ function App() {
         </div>
       </div>
       <div className="sidebar">
-          <Sidebar studyTime={studyTime} ></Sidebar>
+          < Sidebar studyTime={studyTime} setStudyTime = {setStudyTime} ></Sidebar>
       </div>
    
         {/* <Main></Main> */}

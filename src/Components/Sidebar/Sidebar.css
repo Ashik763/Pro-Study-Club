@@ -9,6 +9,36 @@
     /* border:1px solid red; */
     display: flex;
     flex-direction: column;
-    overflow-y: scroll;
-    /* justify-content: center; */
+    overflow-y: scroll; 
+    /* justify-content: center;*/
 }
+.small-device{
+    display: none;
+}
+/* .large-device{
+    
+} */
+
+
+@media screen and (max-width: 850px) {
+    .sidebar{
+        width: 10vw;
+        background-color: #f4f5f7;
+        /* position: absolute;
+        right: 0px;
+        top:0px;
+        height: 100vh;
+        position: fixed; */
+        /* border:1px solid red; */
+        /* display: flex;
+        flex-direction: column;
+        overflow-y: scroll; 
+        justify-content: center; */
+    }
+   .small-device{
+    display: block;
+   }
+   .large-device{
+    display: none;
+   }
+  }
